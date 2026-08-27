@@ -4,8 +4,8 @@ An end-to-end data analysis project exploring a dataset of 100,000+ restaurant t
 ## Business Problems & SQL Solutions
 ```sql
 1. City Financial Performance
-* Business Problem: Calculate total rounded bills and gross profit per city, sorted by lowest total bill first, then highest gross profit.
-* **SQL Query:**<img width="279" height="116" alt="p1" src="https://github.com/user-attachments/assets/b5fbecbe-ad1b-4f46-ade6-52e9e2d4a027" />
+Business Problem: Calculate total rounded bills and gross profit per city, sorted by lowest total bill first, then highest gross profit.
+
 SELECT 
     Restaurant_City,
     ROUND(SUM(Total_Bill),0) AS Total_Bill,
@@ -14,7 +14,8 @@ FROM rest
 GROUP BY Restaurant_City
 ORDER BY 2, 3 DESC;
 
-![Project1](assets/p1.png)
+<img width="279" height="116" alt="p1" src="https://github.com/user-attachments/assets/213d942a-c98e-43d1-8731-f939f7b3b718" />
+
 
 2. Payment Method Insights
 Business Problem: Find the total rounded bill and total order count for each payment method, sorted from highest to lowest total bill.
