@@ -14,7 +14,8 @@ SELECT
 FROM rest
 GROUP BY Restaurant_City
 ORDER BY 2, 3 DESC;
-<img width="279" height="116" alt="image" src="https://github.com/user-attachments/assets/161ec5a9-b2df-49a9-8a69-085c283e0cb3" />
+<img width="279" height="116" alt="p1" src="https://github.com/user-attachments/assets/c9b36992-9958-4d13-9226-9f4f946bca53" />
+
 
 2. Payment Method Insights
 Business Problem: Find the total rounded bill and total order count for each payment method, sorted from highest to lowest total bill.
